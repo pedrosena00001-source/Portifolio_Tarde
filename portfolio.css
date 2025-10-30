@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Estilo Gerais */
+body{
+    background-color: #f7f9fc;
+    color: #333;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+/* Menu Lateral */
+
+.nav-bar{
+    background-color: #1e3a8a;
+    color: #fff;
+    height: 100%;
+    left: 0;
+    padding: 30px 20px;
+    position: fixed;
+    top: 0;
+    width: 220px;
+}
+
+.nav-bar h2{
+    margin-bottom: 30px;
+}
+
+.nav-bar ul{
+    list-style: none;
+    padding: 0;
+}
+
+.nav-bar ul li{
+    margin-bottom: 15px;
+}
+
+.nav-bar ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+
+}
+.nav-bar ul li a:hover{
+    color: #93c5fd;
+
+}
+
+/* Conteúdo Principal */
+
+main{
+    margin-left: 250px;
+
+}
+.secao{
+    margin-bottom: 80px;
+}
+.secao h2{
+    border-bottom: 3px groove #1e3a8a ;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+
+}
+.sobre-container{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.sobre-container img{
+    height: 300px;
+    width: 300px;
+}
+.texto-sobre p{
+    background-color: #e0f2fe;
+    border-radius: 8px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+/*SEÇÃO PROJETOS*/
+
+.cards-conteiner{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+    width: 300px;
+}
